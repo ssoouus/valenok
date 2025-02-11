@@ -57,5 +57,18 @@ h1 {
     100% {
         transform: translate(-50%, -200%) scale(0.5);
         opacity: 0;
-    }
+    }   
+  #counter {
+position: fixed;
+bottom: 20px;
+left: 50%;
+transform: translateX(-50%);
+front-size: 24px;
+color: white;
+font-family: Arial, sans-serif;
+background: rgba(0,0,0,0.7);
+padding: 10px 20px;
+border-radius: 10px;
+white-space: nowrap;
 }
+
