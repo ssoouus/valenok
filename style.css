@@ -61,7 +61,7 @@ h1 {
     }
     #counter {
     position: fixed;
-    top: 50%;
+    top: 10%;
     left: 50%;
     transform: translateX(-50%);
     font-size: 24px;
