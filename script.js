@@ -1,4 +1,4 @@
-let clickCount = 0; // Инициализируем счетчик
+let clickCount = 2; // Инициализируем счетчик
 
 document.addEventListener("click", (event) => {
     const photoContainer = document.getElementById("photo-container");
