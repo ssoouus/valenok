@@ -10,4 +10,15 @@ document.addEventListener("click", (event) => {
     setTimeout(() => {
         img.remove();
     }, 2000);
+    clickCount++;
+    updateCounter();
 });
+function updateCounter(){
+    let counterElement = document.getElementById("counter");
+    if (!counterElement){
+        counterElement = document.createElement("div");
+        counterElement.id = "counter";
+        document.body.appendChild(counterElement);
+    }
+    counterElement.textContent = clickCount + " ноготочков";
+}
