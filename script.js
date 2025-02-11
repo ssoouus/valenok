@@ -16,7 +16,7 @@ document.addEventListener("click", (event) => {
     }, 2000);
 
     // Увеличиваем счетчик и обновляем его текст
-    clickCount++;
+    clickCount= clickCount * 2;
     updateCounter();
 });
 
